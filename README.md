@@ -27,18 +27,19 @@ This project demonstrates how to **deploy an Nginx server** on Kubernetes using 
 
 ## 🏗️ Full Setup Steps
 
-### 1. Start Minikube
+### 
+1. Start Minikube
 Run:
 ```bash
 minikube start
 
-### 2. Create and Apply the Deployment
+2. Create and Apply the Deployment
 kubectl apply -f nginx-deployment.yaml
 
-### 3. Create and Apply the Service
+3. Create and Apply the Service
 kubectl apply -f nginx-service.yaml
 
-### 4. Access the Nginx Server
+4. Access the Nginx Server
 minikube ip
 Access http://<minikube-ip>:<node-port>
 
