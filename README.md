@@ -35,4 +35,5 @@ kubectl apply -f nginx-deployment.yaml
 kubectl apply -f nginx-service.yaml
 minikube ip
 Access http://<minikube-ip>:<node-port>
+```
 
